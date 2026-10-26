@@ -1,6 +1,6 @@
 # M&E QC Inspector
 
-Prototipo experimental de QC asistido, local y de solo lectura sobre el audio original. Compara printmaster, M&E y stems en **5.1 y 2.0**. Su objetivo es preparar una prueba de viabilidad profesional, no certificar entregas Netflix.
+Prototipo experimental de QC asistido, local y de solo lectura sobre el audio original. Compara printmaster, M&E y stems en **5.1 y 2.0**. Su objetivo es preparar una prueba de viabilidad profesional, no certificar entregas.
 
 ## Estado comprobado y límites
 
