@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "status": "downloaded_verified_runtime_built",
+  "verified_metadata_date": "2026-10-26",
+  "runtime": {
+    "repository": "https://github.com/ggml-org/whisper.cpp",
+    "tag": "v1.9.5",
+    "commit": "d1be6fde11ac6e0407606b4e42fe72d34add8037",
+    "license": "MIT",
+    "destination": "vendor/whisper.cpp",
+    "status": "built_verified",
+    "binary": "vendor/whisper.cpp/build/bin/whisper-cli",
+    "binary_sha256": "d9e8000d7f042cacfae10f851cdea1ab2b62b60cfb217ed45d2a65725b27e2f8",
+    "reported_version": "whisper.cpp version: 1.9.5-dev",
+    "linked_local_artifact_sha256": {
+      "vendor/whisper.cpp/build/bin/libggml-base.0.26.0.dylib": "cd402752336e2ff1df2e162b658c85e38d44ae99c6373b1d3a9d7474ec9bb5e2",
+      "vendor/whisper.cpp/build/bin/libggml-base.0.dylib": "cd402752336e2ff1df2e162b658c85e38d44ae99c6373b1d3a9d7474ec9bb5e2",
+      "vendor/whisper.cpp/build/bin/libggml-base.dylib": "cd402752336e2ff1df2e162b658c85e38d44ae99c6373b1d3a9d7474ec9bb5e2",
+      "vendor/whisper.cpp/build/bin/libggml-blas.0.26.0.dylib": "6d2411fcfacabbb6790c1068b7f0c925f88b652d5c754cbec2fd5b025caa0c05",
+      "vendor/whisper.cpp/build/bin/libggml-blas.0.dylib": "6d2411fcfacabbb6790c1068b7f0c925f88b652d5c754cbec2fd5b025caa0c05",
+      "vendor/whisper.cpp/build/bin/libggml-blas.dylib": "6d2411fcfacabbb6790c1068b7f0c925f88b652d5c754cbec2fd5b025caa0c05",
+      "vendor/whisper.cpp/build/bin/libggml-cpu.0.26.0.dylib": "97cdbdc4f03c1230f14f4c577598009051b8732d215f4986696f3067960b7453",
+      "vendor/whisper.cpp/build/bin/libggml-cpu.0.dylib": "97cdbdc4f03c1230f14f4c577598009051b8732d215f4986696f3067960b7453",
+      "vendor/whisper.cpp/build/bin/libggml-cpu.dylib": "97cdbdc4f03c1230f14f4c577598009051b8732d215f4986696f3067960b7453",
+      "vendor/whisper.cpp/build/bin/libggml-metal.0.26.0.dylib": "e5ad7cb8a1784baf12aff49635fe848f4653a7ab42509342c5e40d15fd01d88e",
+      "vendor/whisper.cpp/build/bin/libggml-metal.0.dylib": "e5ad7cb8a1784baf12aff49635fe848f4653a7ab42509342c5e40d15fd01d88e",
+      "vendor/whisper.cpp/build/bin/libggml-metal.dylib": "e5ad7cb8a1784baf12aff49635fe848f4653a7ab42509342c5e40d15fd01d88e",
+      "vendor/whisper.cpp/build/bin/libggml.0.26.0.dylib": "6f9f7d265abd6df2f5be9674260074c09118adcf4535acb4367b99b263731640",
+      "vendor/whisper.cpp/build/bin/libggml.0.dylib": "6f9f7d265abd6df2f5be9674260074c09118adcf4535acb4367b99b263731640",
+      "vendor/whisper.cpp/build/bin/libggml.dylib": "6f9f7d265abd6df2f5be9674260074c09118adcf4535acb4367b99b263731640",
+      "vendor/whisper.cpp/build/bin/libwhisper.1.9.5.dylib": "a8812a670399e5038c3e8897d9e838278fd0d272a93dab48d0a660ba80d1bb61",
+      "vendor/whisper.cpp/build/bin/libwhisper.1.dylib": "a8812a670399e5038c3e8897d9e838278fd0d272a93dab48d0a660ba80d1bb61",
+      "vendor/whisper.cpp/build/bin/libwhisper.dylib": "a8812a670399e5038c3e8897d9e838278fd0d272a93dab48d0a660ba80d1bb61"
+    },
+    "observed_metal_device": "Apple M2 Pro"
+  },
+  "models": [
+    {
+      "repository": "ggerganov/whisper.cpp",
+      "revision": "5359861c739e955e79d9a303bcbc70fb988958b1",
+      "file": "ggml-small.bin",
+      "size_bytes": 487601967,
+      "sha256": "1be3a9b2063867b937e64e2ec7483364a79917e157fa98c5d94b5c1fffea987b",
+      "license": "MIT",
+      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-small.bin",
+      "destination": "models/ggml-small.bin",
+      "verification": {
+        "size_match": true,
+        "published_sha256_match": true
+      }
+    },
+    {
+      "repository": "ggml-org/whisper-vad",
+      "revision": "9ffd54a1e1ee413ddf265af9913beaf518d1639b",
+      "file": "ggml-silero-v6.2.0.bin",
+      "size_bytes": 885098,
+      "sha256": "2aa269b785eeb53a82983a20501ddf7c1d9c48e33ab63a41391ac6c9f7fb6987",
+      "license": "MIT",
+      "url": "https://huggingface.co/ggml-org/whisper-vad/resolve/9ffd54a1e1ee413ddf265af9913beaf518d1639b/ggml-silero-v6.2.0.bin",
+      "destination": "models/ggml-silero-v6.2.0.bin",
+      "verification": {
+        "size_match": true,
+        "published_sha256_match": true
+      }
+    }
+  ],
+  "verified_at_utc": "2026-10-26T12:12:16.580898+00:00"
+}

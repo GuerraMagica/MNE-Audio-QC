@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "annotations": [{
+    "id": "synthetic-loss-1", "project_id": "synthetic-defect", "layout": "2.0",
+    "kind": "omission", "span": [24000, 48000], "channels": ["L", "R"],
+    "label": "positive", "injected": true, "policy_issue": true
+  }]
+}
